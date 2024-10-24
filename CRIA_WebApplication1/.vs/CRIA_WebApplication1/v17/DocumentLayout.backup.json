@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|c:\\users\\rayssa\\documents\\cria_p.i\\cria_webapplication1\\cria_webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|solutionrelative:cria_webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "CRIA_WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\appsettings.json",
+              "RelativeToolTip": "CRIA_WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T23:12:57.98Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
