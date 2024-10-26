@@ -1,0 +1,23 @@
+{
+	"info": {
+		"_postman_id": "b7f59ad2-b5d0-4603-bfe8-838deac9560d",
+		"name": "CRIA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10318643"
+	},
+	"item": [
+		{
+			"name": "Curso",
+			"item": [
+				{
+					"name": "Curso",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

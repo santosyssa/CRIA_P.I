@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|c:\\users\\rayssa\\documents\\cria_p.i\\cria_webapplication1\\cria_webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|solutionrelative:cria_webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|c:\\users\\rayssa\\documents\\cria_p.i\\cria_webapplication1\\cria_webapplication1\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|solutionrelative:cria_webapplication1\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|c:\\users\\rayssa\\documents\\cria_p.i\\cria_webapplication1\\cria_webapplication1\\repositories\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|solutionrelative:cria_webapplication1\\repositories\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|c:\\users\\rayssa\\documents\\cria_p.i\\cria_webapplication1\\cria_webapplication1\\interfaces\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|solutionrelative:cria_webapplication1\\interfaces\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|c:\\users\\rayssa\\documents\\cria_p.i\\cria_webapplication1\\cria_webapplication1\\repositories\\apifamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|solutionrelative:cria_webapplication1\\repositories\\apifamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|c:\\users\\rayssa\\documents\\cria_p.i\\cria_webapplication1\\cria_webapplication1\\interfaces\\iapifamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DBFC1D-73F0-474C-954A-8887E82280F8}|CRIA_WebApplication1\\CRIA_WebApplication1.csproj|solutionrelative:cria_webapplication1\\interfaces\\iapifamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CRIA_WebApplication1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CRIA_WebApplication1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-26T21:29:16.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "CRIA_WebApplication1\\Controllers\\CursoController.cs",
+              "ToolTip": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "CRIA_WebApplication1\\Controllers\\CursoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:14:22.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Interfaces\\ICursoRepository.cs",
+              "RelativeDocumentMoniker": "CRIA_WebApplication1\\Interfaces\\ICursoRepository.cs",
+              "ToolTip": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Interfaces\\ICursoRepository.cs",
+              "RelativeToolTip": "CRIA_WebApplication1\\Interfaces\\ICursoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:08:58.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Repositories\\CursoRepository.cs",
+              "RelativeDocumentMoniker": "CRIA_WebApplication1\\Repositories\\CursoRepository.cs",
+              "ToolTip": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Repositories\\CursoRepository.cs",
+              "RelativeToolTip": "CRIA_WebApplication1\\Repositories\\CursoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:07:07.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiFamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Repositories\\ApiFamRepository.cs",
+              "RelativeDocumentMoniker": "CRIA_WebApplication1\\Repositories\\ApiFamRepository.cs",
+              "ToolTip": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Repositories\\ApiFamRepository.cs",
+              "RelativeToolTip": "CRIA_WebApplication1\\Repositories\\ApiFamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:03:21.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IApiFamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Interfaces\\IApiFamRepository.cs",
+              "RelativeDocumentMoniker": "CRIA_WebApplication1\\Interfaces\\IApiFamRepository.cs",
+              "ToolTip": "C:\\Users\\Rayssa\\Documents\\CRIA_P.I\\CRIA_WebApplication1\\CRIA_WebApplication1\\Interfaces\\IApiFamRepository.cs",
+              "RelativeToolTip": "CRIA_WebApplication1\\Interfaces\\IApiFamRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T20:00:13.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
