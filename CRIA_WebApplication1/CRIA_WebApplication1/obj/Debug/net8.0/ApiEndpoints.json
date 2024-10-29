@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "ContainingType": "CRIA_WebApplication1.Controllers.CursoController",
+    "Method": "Listar",
+    "RelativePath": "api/Curso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CRIA_WebApplication1.Domains.Curso, CRIA_WebApplication1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

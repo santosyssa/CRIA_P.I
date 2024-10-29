@@ -1,21 +1,44 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Adiciona os serviços necessários ao contêiner.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers()
+    .AddNewtonsoftJson(opts =>
+    {
+        opts.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+    });
+builder.Services.AddSwaggerGen();
+builder.Services.AddEndpointsApiExplorer();
+
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+// Configura o middleware Swagger apenas no ambiente de Desenvolvimento
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API");
+    });
+}
+else
 {
     app.UseExceptionHandler("/Error");
 }
+
 app.UseStaticFiles();
 
 app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapRazorPages();
+app.MapControllers(); //Mapeia os controllers
+app.MapRazorPages(); //Mapeia as páginas razor
 
 app.Run();

@@ -17,7 +17,7 @@ namespace CRIA_WebApplication1.Repositories
 
         public List<Usuario> Listar()
         {
-            return ctx.Usuarios.Include(x => x.ApiFams).ToList();
+            return ctx.Usuarios.ToList();
         }
     }
 }

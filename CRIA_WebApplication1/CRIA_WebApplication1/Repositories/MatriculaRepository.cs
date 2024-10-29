@@ -11,7 +11,7 @@ namespace CRIA_WebApplication1.Repositories
 
         public List<Matricula> Litar()
         {
-            return ctx.Matriculas.Include(x => x.ApiFams).ToList();
+            return ctx.Matriculas.ToList();
         }
     }
 }

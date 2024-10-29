@@ -11,7 +11,7 @@ namespace CRIA_WebApplication1.Repositories
 
         public List<Mentor> Listar()
         {
-            return ctx.Mentors.Include(x => x.ApiFams).ToList();
+            return ctx.Mentors.ToList();
         }
     }
 }

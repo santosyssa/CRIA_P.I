@@ -11,7 +11,7 @@ namespace CRIA_WebApplication1.Repositories
 
         public List<Adm> Listar()
         {
-            return ctx.Adms.Include(x => x.IdAdm).ToList();
+            return ctx.Adms.ToList();
         }
     }
 }

@@ -11,8 +11,8 @@ namespace CRIA_WebApplication1.Repositories
 
         public List<Curso> Listar()
         {
-           
-            return ctx.Cursos.Include(x => x.ApiFams).ToList();
+
+            return ctx.Cursos.ToList();
         }
 
     }
