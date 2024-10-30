@@ -9,9 +9,8 @@ namespace CRIA_WebApplication1.Repositories
     {
         CRIAContext ctx = new CRIAContext();
 
-        public List<Curso> Listar()
+        public List<Curso> ListarCurso()
         {
-
             return ctx.Cursos.ToList();
         }
 

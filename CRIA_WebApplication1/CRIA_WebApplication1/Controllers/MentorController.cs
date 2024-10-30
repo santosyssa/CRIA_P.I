@@ -10,21 +10,21 @@ namespace CRIA_WebApplication1.Controllers
     [Produces("application/json")]
     [ApiController]
 
-    public class CursoController : Controller
+    public class MentorController : Controller
     {
-        private ICursoRepository CursoRepository { get; set; }
+        private IMentorRepository  MentorRepository { get; set; }
 
-        public CursoController()
+        public MentorController()
         {
-            CursoRepository = new CursoRepository();
+            MentorRepository = new MentorRepository();
         }
 
-        // GET: HomeController
-        [HttpGet]
-        public IEnumerable<Curso> ListarCurso()
+        // GET
+        [HttpGet("ListarMentor")]
+        public IActionResult ListarMentor()
         {
-            return CursoRepository.ListarCurso();
+            return Ok(MentorRepository.ListarMentor());
         }
-
     }
-}
+ }
+

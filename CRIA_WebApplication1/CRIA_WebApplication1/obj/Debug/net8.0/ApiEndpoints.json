@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "CRIA_WebApplication1.Controllers.CursoController",
-    "Method": "Listar",
+    "Method": "ListarCurso",
     "RelativePath": "api/Curso",
     "HttpMethod": "GET",
     "IsController": true,
@@ -16,5 +16,35 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "CRIA_WebApplication1.Controllers.MatriculaController",
+    "Method": "ListarMentor",
+    "RelativePath": "api/Matricula/ListarMatricula",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRIA_WebApplication1.Controllers.MentorController",
+    "Method": "ListarMentor",
+    "RelativePath": "api/Mentor/ListarMentor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRIA_WebApplication1.Controllers.UsuarioController",
+    "Method": "ListarUsuario",
+    "RelativePath": "api/Usuario/ListarUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

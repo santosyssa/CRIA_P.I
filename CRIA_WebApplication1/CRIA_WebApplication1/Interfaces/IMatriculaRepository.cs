@@ -4,6 +4,6 @@ namespace CRIA_WebApplication1.Interfaces
 {
     public interface IMatriculaRepository
     {
-        List <Matricula> Litar();
+        List <Matricula> ListarMatricula();
     }
 }

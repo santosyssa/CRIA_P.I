@@ -4,7 +4,7 @@ namespace CRIA_WebApplication1.Interfaces
 {
     public interface ICursoRepository
     {
-        List<Curso> Listar();
+        List<Curso> ListarCurso();
 
     }
 }

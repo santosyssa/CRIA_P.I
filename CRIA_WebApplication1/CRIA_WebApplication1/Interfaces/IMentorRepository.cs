@@ -5,7 +5,7 @@ namespace CRIA_WebApplication1.Interfaces
     public interface IMentorRepository
     {
 
-        List<Mentor> Listar();
+        List<Mentor> ListarMentor();
 
     }
 }

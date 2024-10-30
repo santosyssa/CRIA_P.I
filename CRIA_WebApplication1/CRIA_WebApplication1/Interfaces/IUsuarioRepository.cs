@@ -4,7 +4,7 @@ namespace CRIA_WebApplication1.Interfaces
 {
     public interface IUsuarioRepository 
     {
-        List<Usuario> Listar();
+        List<Usuario> ListarUsuario();
 
         void Cadastrar(Usuario usuario);
     }

@@ -9,9 +9,9 @@ namespace CRIA_WebApplication1.Repositories
     {
         CRIAContext ctx = new CRIAContext();
 
-        public List<Mentor> Listar()
+        public List<Mentor> ListarMentor()
         {
-            return ctx.Mentors.ToList();
+            return ctx.Mentors.Include(x => x.IdCursoNavigation).ToList();
         }
     }
 }

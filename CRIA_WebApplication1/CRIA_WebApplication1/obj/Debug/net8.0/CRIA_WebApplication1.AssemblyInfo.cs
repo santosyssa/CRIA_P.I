@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRIA_WebApplication1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6543661be26a7ab7152a26f0a26d05972f324d16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e4ce64b4c8a6c581f8c8f491c6017d50e6b646e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRIA_WebApplication1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRIA_WebApplication1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

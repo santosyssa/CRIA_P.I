@@ -9,9 +9,9 @@ namespace CRIA_WebApplication1.Repositories
     {
         CRIAContext ctx = new CRIAContext();
 
-        public List<Matricula> Litar()
+        public List<Matricula> ListarMatricula()
         {
-            return ctx.Matriculas.ToList();
+            return ctx.Matriculas.Include(x => x.RaNavigation).Include(x => x.IdCursoNavigation).ToList();
         }
     }
 }

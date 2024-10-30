@@ -15,9 +15,10 @@ namespace CRIA_WebApplication1.Repositories
             ctx.SaveChanges();
         }
 
-        public List<Usuario> Listar()
+        public List<Usuario> ListarUsuario()
         {
             return ctx.Usuarios.ToList();
+
         }
     }
 }
