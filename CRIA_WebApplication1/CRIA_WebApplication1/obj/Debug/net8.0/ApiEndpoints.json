@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "CRIA_WebApplication1.Controllers.AdmController",
+    "Method": "ListarAdm",
+    "RelativePath": "api/Adm/ListarAdm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRIA_WebApplication1.Controllers.ApiFamController",
+    "Method": "ListarAdm",
+    "RelativePath": "api/ApiFam/ListarApiFam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CRIA_WebApplication1.Controllers.CursoController",
     "Method": "ListarCurso",
     "RelativePath": "api/Curso",
@@ -35,6 +55,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRIA_WebApplication1.Controllers.UsuarioController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CRIA_WebApplication1.Domains.Usuario",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

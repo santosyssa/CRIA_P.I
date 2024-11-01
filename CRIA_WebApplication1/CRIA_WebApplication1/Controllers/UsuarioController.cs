@@ -1,4 +1,5 @@
-﻿using CRIA_WebApplication1.Interfaces;
+﻿using CRIA_WebApplication1.Domains;
+using CRIA_WebApplication1.Interfaces;
 using CRIA_WebApplication1.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,6 +25,20 @@ namespace CRIA_WebApplication1.Controllers
         public IActionResult ListarUsuario()
         {
             return Ok(UsuarioRepository.ListarUsuario());
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(Usuario usuario)
+        {
+            try
+            {
+                UsuarioRepository.Cadastrar(usuario);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { mensagem = ex.Message });
+            }
         }
     }
 }

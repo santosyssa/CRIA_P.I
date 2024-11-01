@@ -10,7 +10,7 @@
 			"name": "Curso",
 			"item": [
 				{
-					"name": "Curso",
+					"name": "Listar.Curso",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -35,7 +35,7 @@
 			"name": "Mentor",
 			"item": [
 				{
-					"name": "Mentor",
+					"name": "Listar.Mentor",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -61,7 +61,7 @@
 			"name": "Usuario",
 			"item": [
 				{
-					"name": "Usuario",
+					"name": "Listar.Usuario",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -80,6 +80,35 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Criar.Usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"nome\": \"Lilian Alessandra de Farias\",\r\n \"email\": \"lia_farias@gmail.com\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/usuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"usuario"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -87,7 +116,7 @@
 			"name": "Matricula",
 			"item": [
 				{
-					"name": "Matricula",
+					"name": "Listar.Matricula",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -102,6 +131,58 @@
 								"api",
 								"matricula",
 								"ListarMatricula"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ADM",
+			"item": [
+				{
+					"name": "Listar.ADM",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/adm/ListarAdm",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"adm",
+								"ListarAdm"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "API FAM",
+			"item": [
+				{
+					"name": "Listar.APIFAM",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/apifam/ListarApiFam",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"apifam",
+								"ListarApiFam"
 							]
 						}
 					},

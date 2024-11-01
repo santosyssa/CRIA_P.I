@@ -4,6 +4,6 @@ namespace CRIA_WebApplication1.Interfaces
 {
     public interface IAdmRepository
     {
-        List<Adm> Listar();
+        List<Adm> ListarAdm();
     }
 }

@@ -9,7 +9,7 @@ namespace CRIA_WebApplication1.Repositories
     {
         CRIAContext ctx = new CRIAContext();
 
-        public List<Adm> Listar()
+        public List<Adm> ListarAdm()
         {
             return ctx.Adms.ToList();
         }

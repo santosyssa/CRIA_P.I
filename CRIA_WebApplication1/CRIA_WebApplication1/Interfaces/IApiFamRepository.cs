@@ -4,6 +4,6 @@ namespace CRIA_WebApplication1.Interfaces
 {
     public interface IApiFamRepository
     {
-        List<ApiFam> Listar();
+        List<ApiFam> ListarApiFam();
     }
 }

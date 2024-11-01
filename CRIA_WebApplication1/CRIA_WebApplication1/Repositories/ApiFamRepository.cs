@@ -9,9 +9,11 @@ namespace CRIA_WebApplication1.Repositories
     {
         CRIAContext ctx = new CRIAContext();
 
-        public List<ApiFam> Listar()
+        public List<ApiFam> ListarApiFam()
         {
-            return ctx.ApiFams.Include(x => x.IdApi).ToList();
+            return ctx.ApiFams.Include(x => x.IdCursoNavigation).Include(x => x.IdMentorNavigation).
+                Include(x => x.RaNavigation).Include(x => x.ValidarMatriculaNavigation).ToList();
+
         }
     }
 }
