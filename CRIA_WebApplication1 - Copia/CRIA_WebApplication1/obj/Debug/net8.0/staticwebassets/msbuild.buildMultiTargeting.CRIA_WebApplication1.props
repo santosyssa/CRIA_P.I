@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CRIA_WebApplication1.props" />
+</Project>
